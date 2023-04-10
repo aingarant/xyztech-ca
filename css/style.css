@@ -10,6 +10,18 @@ body {
   color: #fff;
 }
 
+a:link, a:visited
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #e0d6d0;
+  text-decoration: underline;
+}
+
 .container {
   display: flex;
   flex-direction: column;
