@@ -10,18 +10,20 @@ body {
   color: #fff;
 }
 
-a:link, a:visited
-{
+a:link,
+a:visited {
   color: #fff;
   text-decoration: none;
 }
 
-a:hover
-{
+a:hover {
   color: #e0d6d0;
   text-decoration: underline;
 }
 
+img {
+  max-width: 90%;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -37,7 +39,7 @@ a:hover
   margin-bottom: 20px;
 }
 .container h2 {
-  font-size: 1.0rem;
+  font-size: 1rem;
   font-weight: 100;
   margin-bottom: 20px;
   background-color: #fff;
@@ -45,9 +47,8 @@ a:hover
   color: #333;
 }
 
-.container h3
-{
-  font-size: 1.0rem;
+.container h3 {
+  font-size: 1rem;
   font-weight: 100;
   margin-bottom: 20px;
   background-color: #333;
